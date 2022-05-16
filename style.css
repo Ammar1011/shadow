@@ -1,0 +1,40 @@
+body {
+    padding: 10vw;
+    margin: 0;
+}
+.shadows {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10vw;
+    justify-items: stretch;
+    margin-bottom: 100px;
+}
+.shadows {
+    aspect-ratio: 1;
+    border: 1px solid #cccccc;
+}
+.shadows > div {
+    aspect-ratio: 1;
+    border: 1px solid #cccccc;
+}
+.box-shadow1 {
+    box-shadow: 5px 5px rgb(0, 0, 0);
+}
+.box-shadow2 {
+    box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.256);
+}
+.box-shadow3 {
+    box-shadow: 15px 10px 7px rgba(22, 69, 187, 0.671);
+}
+.box-shadow4 {
+    box-shadow: 10px 10px 0px 5px rgb(51, 17, 93);
+}
+.box-shadow4 {
+    box-shadow: inset 10px 10px 10px 10px rgb(0, 0, 200);
+}
+.box-shadow5 {
+    box-shadow: 20px 20px 7px 7px rgb(162, 18, 18);
+}
+.box-shadow6 {
+    box-shadow: 15px 15px 7px rgba(0, 0, 0, 0.7);
+}
